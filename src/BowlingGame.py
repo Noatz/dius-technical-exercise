@@ -100,7 +100,6 @@ if __name__ == '__main__':
         elif method == 'score':
             print (f'> {bg.score()}')
         elif method in ['done', 'end', 'exit']:
-            print ('Thanks for playing :)')
-            exit(0)
+            break
 
-    print (f'Your final score is: {bg.score()}')
+    print (f'Your final score is: {bg.score()}, thanks for playing.')
